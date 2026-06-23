@@ -1,8 +1,11 @@
 <?php
 
-require 'koneksi.php';
-require 'Karyawan.php';
+require_once 'koneksi.php';
+require_once 'Karyawan.php';
+require_once 'KaryawanKontrak.php';
+require_once 'KaryawanTetap.php';
+require_once 'KaryawanMagang.php';
 
-echo "Tahap 3 berhasil dibuat.";
+echo "<h2>Tahap 4 Berhasil Dibuat</h2>";
 
 ?>

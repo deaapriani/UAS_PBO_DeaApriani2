@@ -1,5 +1,4 @@
 <?php
-
 class Koneksi
 {
     public $conn;
@@ -14,14 +13,8 @@ class Koneksi
         );
 
         if ($this->conn->connect_error) {
-            die(
-                "Koneksi gagal: " .
-                $this->conn->connect_error
-            );
+            die("Koneksi gagal : " . $this->conn->connect_error);
         }
-
-        echo "Koneksi berhasil";
     }
 }
-
 ?>

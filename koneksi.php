@@ -15,10 +15,12 @@ class Koneksi
 
         if ($this->conn->connect_error) {
             die(
-                "Koneksi Gagal : "
-                . $this->conn->connect_error
+                "Koneksi gagal: " .
+                $this->conn->connect_error
             );
         }
+
+        echo "Koneksi berhasil";
     }
 }
 
